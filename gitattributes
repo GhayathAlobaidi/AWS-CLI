@@ -1,4 +1,4 @@
 *.css linguist-detectable=false
 *.js linguist-detectable=fale
 *.java linguist-detectable=false
-*.shell linguist-detectable=true
+*.shell linguist-detectable=false

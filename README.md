@@ -1,14 +1,15 @@
-AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). I wanted to show the steps in enabling AWS on an EC2 instance that is launched by the user.  The goal of this is to:
-
--
-
+AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). A user is able to access and edit the AWS services via the Management Console.  However, there is a lot of power in being able to use the command line interface in accessing those same services.  This respository shows the steps to connfigure AWS on an EC2 instance (Linux 2 AMI) that is launched by the user. 
 
 1.	Launch Amazon Linux 2 AMI
 
 <img width="1312" alt="2" src="https://user-images.githubusercontent.com/37382927/110192809-527f7680-7de5-11eb-8af4-8baca6d212cb.png">
 
+2.	Setup SSH firewall rule (allow all IP addresses for test purposes only)
 
 <img width="1312" alt="3" src="https://user-images.githubusercontent.com/37382927/110192810-53180d00-7de5-11eb-8c9d-a7a704411002.png">
+
+3.	Create & download private key pair to securely SSH into EC2 instance
+
 <img width="1273" alt="4" src="https://user-images.githubusercontent.com/37382927/110192811-53b0a380-7de5-11eb-8328-0a29f8e84498.png">
 
 

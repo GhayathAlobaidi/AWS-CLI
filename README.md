@@ -1,4 +1,3 @@
-<img width="984" alt="Screen Shot 2021-03-08 at 12 55 45 PM" src="https://user-images.githubusercontent.com/37382927/110380931-a79dd100-800d-11eb-908e-842114af0d9c.png">
 # AWS-CLI  <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
 
 AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). AWS users are most familiar with the AWS Management Console to access and manage the various AWS services.  However, there is a lot of power in being able to use the command line interface in accessing those same services.  This respository shows the steps to configure AWS on an Amazon Linux 2 EC2 instance and be able to list the user's S3 buckets.  The steps can be used with other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat) 
@@ -25,15 +24,15 @@ Note:
 
 5.	Create new IAM user with Programmatic access and Management Console access
 
-<img width="984" alt="Screen Shot 2021-03-08 at 12 55 45 PM" src="https://user-images.githubusercontent.com/37382927/110380963-b6848380-800d-11eb-991a-3952ee5af768.png">
-
+<img width="983" alt="5" src="https://user-images.githubusercontent.com/37382927/110381201-fc414c00-800d-11eb-84ec-bb7b23a42fdb.png">
 
 6.	 Attach Amazon S3 Full Access policy to the newly created user
 
-
+<img width="976" alt="6" src="https://user-images.githubusercontent.com/37382927/110381112-e469c800-800d-11eb-9678-5e03df48c851.png">
 
 7.	Review IAM user details
 
+<img width="976" alt="7" src="https://user-images.githubusercontent.com/37382927/110381157-f481a780-800d-11eb-9bc8-f2e9105b354b.png">
 
 8.	Download User’s Credentials for Future CLI Access
 
@@ -49,11 +48,11 @@ Note:
 
 11.	Open the downloaded .csv file which holds the newly created user credentials 
 
+<img width="915" alt="12" src="https://user-images.githubusercontent.com/37382927/110381253-0ebb8580-800e-11eb-81af-bb8be6b913c1.png">
 
 12.	Setup AWS Configure using User’s CLI Credentials (Access Key ID & Secret Access Key)
 
 <img width="851" alt="13" src="https://user-images.githubusercontent.com/37382927/110192860-92def480-7de5-11eb-9f2d-f0417d646abc.png">
-
 
 13.	Use ‘aws help’ command to learn more about AWS CLI commands
 

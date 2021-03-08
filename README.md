@@ -35,7 +35,7 @@ AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services.
 
 <img width="986" alt="8" src="https://user-images.githubusercontent.com/37382927/110192839-793dad00-7de5-11eb-829c-7fb10f30eaa7.png">
 
-9.	SSH Into EC2 with choice of terminal (using Bash in this example)
+9.	SSH Into EC2 with choice of terminal application (using macOS Terminal -> bash in this example)
 
 <img width="1198" alt="9" src="https://user-images.githubusercontent.com/37382927/110192840-79d64380-7de5-11eb-8c1e-77aa1e0c0dc3.png">
 

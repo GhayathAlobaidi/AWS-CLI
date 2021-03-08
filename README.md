@@ -1,4 +1,4 @@
-# AWS-CLI <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
+# AWS-CLI  <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
 
 AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). AWS users are most familiar with the AWS Management Console to access and manage the various AWS services.  However, there is a lot of power in being able to use the command line interface in accessing those same services.  This respository shows the steps to configure AWS on an EC2 instance (Linux 2 AMI) and be able to list the user's S3 buckets. 
 
@@ -38,7 +38,6 @@ AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services.
 9.	SSH Into EC2 with choice of terminal (using Bash in this example)
 
 <img width="1198" alt="9" src="https://user-images.githubusercontent.com/37382927/110192840-79d64380-7de5-11eb-8c1e-77aa1e0c0dc3.png">
-
 
 10.	Check Python and AWS CLI version installed on the instance
 

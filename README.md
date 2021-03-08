@@ -34,7 +34,7 @@ Note:
 
 <img width="976" alt="7" src="https://user-images.githubusercontent.com/37382927/110381157-f481a780-800d-11eb-9bc8-f2e9105b354b.png">
 
-8.	Download User’s Credentials for Future CLI Access
+8.	Download newly created user’s credentials for future CLI confurations
 
 <img width="986" alt="8" src="https://user-images.githubusercontent.com/37382927/110192839-793dad00-7de5-11eb-829c-7fb10f30eaa7.png">
 

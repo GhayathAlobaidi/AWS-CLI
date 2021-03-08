@@ -1,3 +1,4 @@
+<img width="984" alt="Screen Shot 2021-03-08 at 12 55 45 PM" src="https://user-images.githubusercontent.com/37382927/110380931-a79dd100-800d-11eb-908e-842114af0d9c.png">
 # AWS-CLI  <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
 
 AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). AWS users are most familiar with the AWS Management Console to access and manage the various AWS services.  However, there is a lot of power in being able to use the command line interface in accessing those same services.  This respository shows the steps to configure AWS on an Amazon Linux 2 EC2 instance and be able to list the user's S3 buckets.  The steps can be used with other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat) 
@@ -24,6 +25,7 @@ Note:
 
 5.	Create new IAM user with Programmatic access and Management Console access
 
+<img width="984" alt="Screen Shot 2021-03-08 at 12 55 45 PM" src="https://user-images.githubusercontent.com/37382927/110380963-b6848380-800d-11eb-991a-3952ee5af768.png">
 
 
 6.	 Attach Amazon S3 Full Access policy to the newly created user

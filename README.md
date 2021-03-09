@@ -10,11 +10,11 @@ Note:
 
 <img width="1324" alt="1" src="https://user-images.githubusercontent.com/37382927/110220582-6a093e80-7e7b-11eb-80cd-32b5424e9e22.png">
 
-2.	Setup SSH firewall rule (allow all IP addresses for test purposes only)
+### 2.	Setup SSH firewall rule (allow all IP addresses for test purposes only)
 
 <img width="1312" alt="2" src="https://user-images.githubusercontent.com/37382927/110192809-527f7680-7de5-11eb-8af4-8baca6d212cb.png">
 
-3.	Create & download private key pair to securely SSH into EC2 instance
+### 3.	Create & download private key pair to securely SSH into EC2 instance
 
 <img width="1312" alt="3" src="https://user-images.githubusercontent.com/37382927/110192810-53180d00-7de5-11eb-8c9d-a7a704411002.png">
 

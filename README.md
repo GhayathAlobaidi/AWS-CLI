@@ -6,7 +6,7 @@ Note:
 - Please remember to secure and don't share the EC2's private key and the user's credentials.  
 - Furthermore, public IP addresses were temporarly allowed into the EC2 created in this example for test and learning purposes.  Please make sure to secure access to your EC2 by setting up the appropriate firewall rules. 
 
-1.	Launch Amazon Linux 2 AMI
+### 1.	Launch Amazon Linux 2 AMI
 
 <img width="1324" alt="1" src="https://user-images.githubusercontent.com/37382927/110220582-6a093e80-7e7b-11eb-80cd-32b5424e9e22.png">
 

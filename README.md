@@ -3,8 +3,9 @@
 AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). Users are mostly familiar with the AWS Management Console to access and manage the various AWS services.  However, with the help of AWS command line interface, users can access and manage those same services through Secure Shell.  This respository shows the steps to configure AWS CLI on an Amazon Linux 2 EC2 instance and be able to execute commands such as listing the user's S3 buckets.  The steps can be applied using other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat. 
 
 Note:
-- Please remember to secure and don't share the EC2's private key and the user's credentials.  
-- Furthermore, public IP addresses were temporarly allowed into the EC2 created in this example for test and learning purposes.  Please make sure to secure access to your EC2 by setting up the appropriate firewall rules. 
+- Please remember to always secure and never share your EC2's private key and the user's credentials.  
+- In this example, all public IP addresses were temporarly allowed into the EC2 on port 22 to use the SSH protocol for test and learning purposes only.  Please make sure to secure access to your EC2 by setting up the appropriate firewall rules. 
+- AWS charges users based on the amount of compute, storage and data transfer out (not in). This example uses the EC2 instance (t2.micro) family that comes with an attached 8gb SSD EBS volume. Both are covered under the AWS 1-year free tier model.  Every user's setup is different.  Thus depending on your personal AWS setup, please remember to disable or terminate any running EC instantces/EBS volumes as it can incur charges on your account. 
 
 ### 1.	Launch Amazon Linux 2 AMI
 

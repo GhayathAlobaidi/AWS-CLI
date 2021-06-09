@@ -44,6 +44,8 @@ Note:
 <img width="1198" alt="9" src="https://user-images.githubusercontent.com/37382927/110192840-79d64380-7de5-11eb-8c1e-77aa1e0c0dc3.png">
 
 ### 10.	Check Python and AWS CLI version installed on the instance
+- Note that our Linux 2 AMI instance comes pre-installed with AWS CLI and Python. 
+- It is recommennded to update our EC2 instance and CLI prior to use (I ommitted this step for quick CLI configuration and testing). 
 
 <img width="853" alt="11" src="https://user-images.githubusercontent.com/37382927/110192851-865a9c00-7de5-11eb-814e-507f3e3b558c.png">
 
@@ -52,6 +54,7 @@ Note:
 <img width="915" alt="12" src="https://user-images.githubusercontent.com/37382927/110381253-0ebb8580-800e-11eb-81af-bb8be6b913c1.png">
 
 ### 12.	Setup AWS Configure using user’s CLI credentials (Access Key ID & Secret Access Key)
+- Leaving "Default output format" empty means receiving the default output format in json string
 
 <img width="851" alt="13" src="https://user-images.githubusercontent.com/37382927/110192860-92def480-7de5-11eb-9f2d-f0417d646abc.png">
 

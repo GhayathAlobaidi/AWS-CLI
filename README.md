@@ -1,6 +1,6 @@
 # AWS-CLI  <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
 
-AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). Users are mostly familiar with the AWS Management Console to access and manage the various AWS services.  However, with the help of AWS command line interface, users can access and manage those same services through command-line shells.  Common shell programs include bash, zshell and Window's PowerShell.  This respository illustrates the steps to configure AWS CLI on an Amazon Linux 2 EC2 instance and execute commands such as listing the user's S3 buckets.  The steps can be applied using other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat. 
+AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). Users are mostly familiar with the AWS Management Console to access and manage the various AWS services.  However with the help of AWS command line interface, users can access and manage those same services through command-line shells.  Common shell programs include bash or Z Shell on Linux or macOS and PowerShell on Windows.  In addition, we have the ability to run AWS commands by remotely connecting to an EC2 server from our local machine through SSH or PuTTY.  This respository illustrates the steps to remotely configure AWS CLI on an Amazon Linux 2 EC2 instance.  Initially, we launch an EC2 instance, create our IAM user and attach the appropriate user's policies.  Then, we connect to the instance through SSH, configure AWS CLI and execute commands such as listing the user's S3 buckets.  The steps can be applied using other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat. 
 
 Note:
 - Please remember to always secure and never share your EC2's private key and the user's credentials.  
@@ -35,11 +35,11 @@ Note:
 
 <img width="976" alt="7" src="https://user-images.githubusercontent.com/37382927/110381157-f481a780-800d-11eb-9bc8-f2e9105b354b.png">
 
-### 8.	Download newly created user’s credentials for future CLI confurations
+### 8.	Download newly created user’s credentials for future CLI configurations
 
 <img width="986" alt="8" src="https://user-images.githubusercontent.com/37382927/110192839-793dad00-7de5-11eb-829c-7fb10f30eaa7.png">
 
-### 9.	SSH Into EC2 with choice of terminal application (using macOS Terminal -> bash in this example)
+### 9.	SSH into EC2 with choice of terminal application (using macOS Terminal -> bash in this example)
 
 <img width="1198" alt="9" src="https://user-images.githubusercontent.com/37382927/110192840-79d64380-7de5-11eb-8c1e-77aa1e0c0dc3.png">
 

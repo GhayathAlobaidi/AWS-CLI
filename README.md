@@ -1,6 +1,6 @@
 # AWS-CLI  <img src="https://user-images.githubusercontent.com/37382927/110361629-24708100-7ff5-11eb-8214-b92c2696f2eb.png" width="60" height="50"> 
 
-AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). Users are mostly familiar with the AWS Management Console to access and manage the various AWS services.  However with the help of AWS command line interface, users can access and manage those same services through command-line shells.  Common shell programs include bash or Z Shell on Linux or macOS and PowerShell on Windows.  In addition, we have the ability to run AWS commands by remotely connecting to an EC2 server from our local machine through SSH or PuTTY.  This respository illustrates the steps to remotely configure AWS CLI on an Amazon Linux 2 EC2 instance.  Initially, we launch an EC2 instance, create our IAM user and attach the appropriate user's policies.  Then, we connect to the instance through SSH, configure AWS CLI and execute commands such as listing the user's S3 buckets.  The steps can be applied using other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat. 
+AWS CLI (Command Line Interface) "is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts" (AWS). Users are mostly familiar with the AWS Management Console to access and manage the various AWS services.  However with the help of AWS command line interface, users can access and manage those same services through command-line shells.  Common shell programs include bash or Z Shell on Linux or macOS and PowerShell on Windows.  In addition, we have the ability to run AWS commands by remotely connecting to an EC2 server from our local machine through SSH or PuTTY.  This respository illustrates the steps to remotely configure AWS CLI on an Amazon Linux 2 EC2 instance.  Initially, we launch an EC2 instance, create our IAM user and attach the appropriate user's policy.  Then, we connect to the instance through SSH, configure AWS CLI and execute commands fro the instance such as listing the user's S3 buckets.  The steps can be applied using other Amazon Machine Images (AMIs) such as Windows, macOS and Redhat. 
 
 Note:
 - Please remember to always secure and never share your EC2's private key and the user's credentials.  
@@ -23,7 +23,7 @@ Note:
 
 <img width="1273" alt="4" src="https://user-images.githubusercontent.com/37382927/110192811-53b0a380-7de5-11eb-8328-0a29f8e84498.png">
 
-### 5.	Create new IAM user with Programmatic access and Management Console access
+### 5.	Create new IAM user with programmatic access and management console access
 
 <img width="983" alt="5" src="https://user-images.githubusercontent.com/37382927/110381201-fc414c00-800d-11eb-84ec-bb7b23a42fdb.png">
 
@@ -51,7 +51,7 @@ Note:
 
 <img width="915" alt="12" src="https://user-images.githubusercontent.com/37382927/110381253-0ebb8580-800e-11eb-81af-bb8be6b913c1.png">
 
-### 12.	Setup AWS Configure using User’s CLI Credentials (Access Key ID & Secret Access Key)
+### 12.	Setup AWS Configure using user’s CLI credentials (Access Key ID & Secret Access Key)
 
 <img width="851" alt="13" src="https://user-images.githubusercontent.com/37382927/110192860-92def480-7de5-11eb-9f2d-f0417d646abc.png">
 
